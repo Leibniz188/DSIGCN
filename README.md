@@ -84,7 +84,7 @@ DATA_DSIGCN/
 │      └──copped_fiber                  # When used as example_data, it only serves to check whether the code runs properly
 │         ├── csv/
 │         └── .dat
-├── Uncertainty_Quantification          # This dataset corresponds to the uncertainty quantification (UQ) section in the paper (DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization). It contains 100 ellipsoidal samples for each volume fraction of 7% and 25%. Refer to the paper for detailed data generation methods
+├── Uncertainty_Quantification          # This dataset corresponds to the uncertainty quantification (UQ) section in the paper. It contains 100 ellipsoidal samples for each volume fraction of 7% and 25%. Refer to the paper for detailed data generation methods
 │   ├──UQ25
 │   │  ├── csv/                         
 │   │  └── .dat                    
