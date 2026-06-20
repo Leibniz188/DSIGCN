@@ -46,7 +46,7 @@ DSIGCN/
 
 Our experiments are conducted on a server equipped with Ubuntu 20.04 (Kernel 5.15.0-139-generic), single Intel(R) Xeon(R) Platinum 8470 CPU, NVIDIA H100 PCIe 80GB GPUs, Driver 550.144.03, CUDA Toolkit 12.4 and Python 3.8.20. Install all dependencies via  `requirements.txt`  with  `pip install -r requirements.txt` ; PyTorch installation commands differ for different CUDA/GPU setups, please check the official PyTorch website for a matching command for your own machine.
 
-This repository only contains core codes for reproducing DSIGCN and 3D-CNN baseline. All ablation studies presented in our paper can be easily implemented by adjusting hyperparameters, network modules and loss functions based on the provided scripts with public dataset.
+This repository releases only the core implementation of our proposed method. All ablation experiments and out-of-distribution (OOD) tests reported in our paper can be reproduced by simple modifications to the provided codes. All datasets used in this work are publicly available.
 
 
 ```bash
