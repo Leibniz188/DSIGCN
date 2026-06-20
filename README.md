@@ -45,13 +45,20 @@ DSIGCN/
 
 ## Prerequisites
 some package required:
-- pytorch: 2.0.1
-- accelerate: 0.20.0
-- pymatgen: 2023.5.10
-- PyYAML: 6.0
-- tqdm: 4.64.0
 
-Other required packages are listed in the `requirements.txt` file.
+- numpy==1.24.3
+- pandas==2.0.3
+- scipy==1.10.1
+- torch==2.4.0
+- torchvision==0.19.0
+- torchaudio==2.4.0
+- dgl==2.4.0+cu124
+- scikit-learn==1.3.2
+- matplotlib==3.7.5
+- seaborn==0.13.2
+- tqdm==4.67.1
+
+All required packages are listed in the `requirements.txt` file.
 
 Our experiments are conducted on a server equipped with Ubuntu 20.04 (Kernel 5.15.0-139-generic), single Intel(R) Xeon(R) Platinum 8470 CPU, NVIDIA H100 PCIe 80GB GPUs, Driver 550.144.03, CUDA Toolkit 12.4 and Python 3.8.20. PyTorch installation commands differ for different CUDA/GPU setups, please check the official PyTorch website for a matching command for your own machine.
 
