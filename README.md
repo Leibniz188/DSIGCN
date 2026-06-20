@@ -121,10 +121,6 @@ BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and
 
 * **Generation (`Generate_mat.py`):** Discretizes continuous multi-phase RVE geometries into structured 3D grids (Voxel), saving inclusion/matrix layouts as binary spatial phase matrix fields inside `.mat` files.
 
-<img src="https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/clous_pt.png?raw=true" width="200">
-
-> Input **X** for the 3D Convolutional Neural Net, i.e. Cartisian grid carrying phase indication
-
 ---
 
 ## 🚀 Quick Start (Demo)
