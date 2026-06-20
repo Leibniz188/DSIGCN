@@ -63,7 +63,7 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 > Intuitive visualization of the dataset
 
 * **Full Dataset:**
-[Dataset](https://www.scidb.cn/preview?dataSetId=e48eff609d7d41c8b69ab522023e8b33&version=V1) directories are shown below:
+[Dataset](https://www.scidb.cn/detail?dataSetId=e48eff609d7d41c8b69ab522023e8b33) directories are shown below:
 ```text
 DATA_DSIGCN/
 │
@@ -92,7 +92,7 @@ DATA_DSIGCN/
 
 All datasets share unified structures. After downloading, just modify file paths in the code to run training and prediction. Manual sorting may lead to errors; dataset verification is welcome to improve data reliability. The `example_data` folder in our code corresponds to the chopped-fiber subset: `DATA_DSIGCN/Out_of_Distribution/ood_shape/chopped_fiber` in the full dataset.
 
-If you use this [Dataset](https://www.scidb.cn/preview?dataSetId=e48eff609d7d41c8b69ab522023e8b33&version=V1) in your paper, please cite our work:
+If you use this [Dataset](https://www.scidb.cn/detail?dataSetId=e48eff609d7d41c8b69ab522023e8b33) in your paper, please cite our work:
 ```bibtex
 BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties[DS/OL]. V1. Science Data Bank, 1[2026-06-20]. https://cstr.cn/31253.11.sciencedb.40644. CSTR:31253.11.sciencedb.40644.
 ```
