@@ -153,6 +153,10 @@ python predict.py
 
 ```
 
+<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/FPE_300.png" width="700">
+
+> Achieved prediction versus ground truth on testing data of subdataset `ellipsoid1000`
+
 ### 2. Run the 3D-CNN Baseline Workflow
 
 Note that the original  code of [3D-CNN](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/training%26plot.py) (TensorFlow version) has been rewritten into a PyTorch version. This code is not applicable to datasets with varying material properties. Datasets with fixed material properties and varying microstructural volume fractions are available via the  `Full Dataset` (e.g. ellipsoid1000).
@@ -174,6 +178,10 @@ After training both models, run the plotting script to generate a publication-re
 python 3DCNN_Baseline/plot_vs.py
 
 ```
+
+<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/Error_Violins_SideBySide_Clean_3x4.png" width="700">
+
+> Comparison of prediction error distributions ($\hat{y} - y$) between the 3DCNN (light blue) and the proposed DSIGCN (light red) on subdataset `ellipsoid1000`
 
 *The resulting high-DPI plot is saved to `.Result/Model_Comparison_Final/Error_Violins_SideBySide_Clean_3x4.png`.*
 
