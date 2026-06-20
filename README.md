@@ -44,14 +44,12 @@ DSIGCN/
 
 ## Requirements
 
-Ensure you have the following dependencies installed before running the pipeline:
+Our experiments are conducted on a server equipped with Ubuntu 20.04 (Kernel 5.15.0-139-generic), single Intel(R) Xeon(R) Platinum 8470 CPU, NVIDIA H100 PCIe 80GB GPUs, Driver 550.144.03, CUDA Toolkit 12.4 and Python 3.8.20. Install all dependencies via  `requirements.txt`  with  `pip install -r requirements.txt` ; PyTorch installation commands differ for different CUDA/GPU setups, please check the official PyTorch website for a matching command for your own machine.
+
 
 ```bash
-pip install numpy pandas scipy torch dgl scikit-learn matplotlib
-
+pip install -r requirements.txt
 ```
-
-*Note: For the 3D-CNN module, a CUDA-capable GPU is highly recommended (`torch.cuda.is_available()`).*
 
 ---
 
