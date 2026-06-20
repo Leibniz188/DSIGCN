@@ -187,7 +187,7 @@ If you find this code or benchmark layout useful in your research, please consid
 > DOI: [Insert DOI Here]
 
 ```bibtex
-@article{dsigcn2026,
+@article{BoLei2027,
   title={[DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization]},
   author={[BoLei, LongWang, YangLliu]},
   journal={[Acta Mech. Sin.]},
