@@ -4,7 +4,7 @@
 
 This project presents a **Dual-Scale Interactive Graph Convolutional Neural Network (DSIGCN)** for the homogenization of 3D Representative Volume Elements (RVEs) with random inclusions. Multi-scale graph representations are constructed from physical mesh data to predict the effective macroscopic mechanical properties of heterogeneous materials.
 
-<img src="https://github.com/Leibniz188/DSIGCN/tree/main/assets/arc.png" width="700">
+<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/arc.png" width="700">
 
 > Overall architecture
 
