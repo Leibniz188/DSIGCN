@@ -43,9 +43,17 @@ DSIGCN/
 
 ---
 
-## Requirements
+## Prerequisites
+some package required:
+- pytorch: 2.0.1
+- accelerate: 0.20.0
+- pymatgen: 2023.5.10
+- PyYAML: 6.0
+- tqdm: 4.64.0
 
-Our experiments are conducted on a server equipped with Ubuntu 20.04 (Kernel 5.15.0-139-generic), single Intel(R) Xeon(R) Platinum 8470 CPU, NVIDIA H100 PCIe 80GB GPUs, Driver 550.144.03, CUDA Toolkit 12.4 and Python 3.8.20. Install all dependencies via  `requirements.txt`  with  `pip install -r requirements.txt` ; PyTorch installation commands differ for different CUDA/GPU setups, please check the official PyTorch website for a matching command for your own machine.
+Other required packages are listed in the `requirements.txt` file.
+
+Our experiments are conducted on a server equipped with Ubuntu 20.04 (Kernel 5.15.0-139-generic), single Intel(R) Xeon(R) Platinum 8470 CPU, NVIDIA H100 PCIe 80GB GPUs, Driver 550.144.03, CUDA Toolkit 12.4 and Python 3.8.20. PyTorch installation commands differ for different CUDA/GPU setups, please check the official PyTorch website for a matching command for your own machine.
 
 
 ```bash
