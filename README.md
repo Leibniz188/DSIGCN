@@ -113,6 +113,8 @@ python train_aug.py
 
 ### 2. Run the 3D-CNN Baseline Workflow
 
+Note that the original  code of 3D-CNN (TensorFlow version) has been rewritten into a PyTorch version. This code is not applicable to datasets with varying material properties, while the demo provided here corresponds to such datasets. Datasets with fixed material properties and varying microstructural volume fractions are available via the full dataset link(e.g. ellipsoid1000).
+
 ```bash
 # Step 1: Voxelize spatial sample matrices into output_mat
 python 3DCNN_Baseline/Generate_mat.py
