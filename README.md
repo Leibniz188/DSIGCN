@@ -192,8 +192,6 @@ python 3DCNN_Baseline/plot_vs.py
 
 > Comparison of prediction error distributions ($\hat{y} - y$) between the 3DCNN (light blue) and the proposed DSIGCN (light red) on subdataset `ellipsoid1000`
 
-*The resulting high-DPI plot is saved to `.Result/Model_Comparison_Final/Error_Violins_SideBySide_Clean_3x4.png`.*
-
 ---
 
 ## Citation
