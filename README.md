@@ -79,7 +79,7 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 
 <img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/pbc.png" width="700">
 
-> RVE Graph
+> Visualization of constructed dual-scale graph structures derived from 3D RVE mesh data
 
 ### 2. The `3DCNN_Baseline` Voxel Pipeline
 
