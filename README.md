@@ -67,7 +67,7 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 ```text
 DATA_DSIGCN/
 │
-├── Out_of_Distribution                 # This dataset is used to verify the model's out-of-distribution (OOD) generalization capability, which is divided into shape and numerical categories. For shape extrapolation, ellipsoids with larger aspect ratios and short-cut fibers are adopted. For numerical extrapolation, the model prediction performance is tested at volume fractions 3% beyond the training range. Each subset contains only ten samples.
+├── Out_of_Distribution                 # This dataset is used to verify the model's out-of-distribution (OOD) generalization capability, which is divided into shape and numerical categories. For shape extrapolation, ellipsoids with larger aspect ratios and short-cut fibers are adopted.
 │   └──ood_shape
 │      ├──High_aspect_ratio_ellipsoids
 │      │  ├── csv/                      # Material properties and macroscopic labels
