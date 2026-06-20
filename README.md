@@ -136,8 +136,11 @@ python Pre_mesh2graph/mesh_data_extractor.py
 # Step 2: Build dual-scale graph objects (.bin)
 python Pre_mesh2graph/Make_graph_bin.py
 
-# Step 3: Run the DSIGCN GNN training pipeline
+# Step 3: Run the DSIGCN training pipeline
 python train_aug.py
+
+# Step 3: Run the DSIGCN predicting pipeline
+python predict.py
 
 ```
 
