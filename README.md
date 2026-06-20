@@ -4,6 +4,8 @@
 
 This project presents a **Dual-Scale Interactive Graph Convolutional Neural Network (DSIGCN)** for the homogenization of 3D Representative Volume Elements (RVEs) with random inclusions. Multi-scale graph representations are constructed from physical mesh data to predict the effective macroscopic mechanical properties of heterogeneous materials.
 
+![Graphs0](assets/arc.png)
+
 To provide a rigorous performance benchmark, this repository also includes a comprehensive **3D Convolutional Neural Network (3D-CNN)** baseline module based on voxelized phase data, complete with automated end-to-end evaluation and cross-model visualization utilities.
 
 The codebase bridges the gap between traditional Finite Element Analysis (FEA), spatial volumetric networks, and modern Graph Neural Networks (GNNs).
@@ -73,7 +75,7 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 * **Extraction (`mesh_data_extractor.py`):** Parses raw FEA element data (e.g., C3D4 tetrahedrals) via keyword parsing into clean topological texts: `node.txt`, `element.txt`, and `matrix.txt`.
 * **Graph Synthesis (`Make_graph_bin.py`):** Constructs element-level **Micro Graphs** and inclusion-level **Meso Graphs** embedding Periodic Boundary Conditions (PBC) and PCA shape descriptors, packaging them into standalone DGL binary objects.
 
-![Graphs](assets/pbc.png)
+![Graphs1](assets/pbc.png)
 
 ### 2. The `3DCNN_Baseline` Voxel Pipeline
 
