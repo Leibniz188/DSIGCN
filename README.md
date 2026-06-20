@@ -204,9 +204,6 @@ python 3DCNN_Baseline/plot_vs.py
 
 If you find this code or benchmark layout useful in your research, please consider citing our work:
 
-> **[Insert Paper Title Here]** > *[Insert Author Names]* > Journal/Conference Name, Year.
-> DOI: [Insert DOI Here]
-
 ```bibtex
 @article{BoLei2027,
   title={[DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization]},
