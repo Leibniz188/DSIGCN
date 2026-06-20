@@ -74,8 +74,9 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 
 **Raw FEA Mesh (.dat) + Properties (.csv) → Structured Text → Training Graph Packages (.bin)**
 
-* **Extraction (`mesh_data_extractor.py`):** Parses raw FEA element data (e.g., C3D4 tetrahedrals) via keyword parsing into clean topological texts: `node.txt`, `element.txt`, and `matrix.txt`.
-* **Graph Synthesis (`Make_graph_bin.py`):** Constructs element-level **Micro Graphs** and inclusion-level **Meso Graphs** embedding Periodic Boundary Conditions (PBC) and PCA shape descriptors, packaging them into standalone DGL binary objects.
+* **Extraction (`mesh_data_extractor.py`):** Parses raw FEA element data (e.g., C3D4 tetrahedral elements) by keyword matching, and converts raw mesh information into standardized topological text files, including `node.txt`, `element.txt`, and `matrix.txt`. All processed outputs are stored under the directory `example_data/chopped_fiber/extracted/`. Each sample corresponds to an independent subfolder named with the suffix `{i}_mesh`, where the folder prefix inherits the filename of the original input `.dat` file, and the total number of subfolders matches the quantity of raw samples.
+
+* **Graph Synthesis (`Make_graph_bin.py`):** Constructs element-level micro graphs and inclusion-level meso graphs with embedded Periodic Boundary Conditions (PBC) and PCA shape descriptors, then packages all graph data into independent DGL binary files. After execution, the generated `.bin` files are saved under `example_data/chopped_fiber/BIN/` with filenames formatted as `sample_{i}.bin`, where the index `i` ranges from 0 to the total number of samples minus one. Each binary file contains both input graph features and corresponding homogenized output labels required for model training.
 
 <img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/pbc.png" width="700">
 
@@ -109,7 +110,7 @@ python train_aug.py
 
 ### 2. Run the 3D-CNN Baseline Workflow
 
-Note that the original  code of [3D-CNN](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/training%26plot.py) (TensorFlow version) has been rewritten into a PyTorch version. This code is not applicable to datasets with varying material properties, while the demo provided here corresponds to such datasets. Datasets with fixed material properties and varying microstructural volume fractions are available via the full dataset link(e.g. ellipsoid1000).
+Note that the original  code of [3D-CNN](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/training%26plot.py) (TensorFlow version) has been rewritten into a PyTorch version. This code is not applicable to datasets with varying material properties. Datasets with fixed material properties and varying microstructural volume fractions are available via the  `Full Dataset` (e.g. ellipsoid1000).
 
 ```bash
 # Step 1: Voxelize spatial sample matrices into output_mat
@@ -119,8 +120,6 @@ python 3DCNN_Baseline/Generate_mat.py
 python 3DCNN_Baseline/train_3dcnn.py
 
 ```
-
-*This step trains a 3D Deep Convolutional network for 150 epochs, tracks validation loss checkpoints, performs automated min-max un-scaling, and outputs `test_set_predictions.csv`.*
 
 ### 3. Generate Benchmark Evaluation Plots
 
