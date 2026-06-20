@@ -94,7 +94,16 @@ All datasets share unified structures. After downloading, just modify file paths
 
 If you use this [Dataset](https://www.scidb.cn/detail?dataSetId=e48eff609d7d41c8b69ab522023e8b33) in your paper, please cite our work:
 ```bibtex
-BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties[DS/OL]. V1. Science Data Bank, 1[2026-06-20]. https://cstr.cn/31253.11.sciencedb.40644. CSTR:31253.11.sciencedb.40644.
+@misc{ e48eff609d7d41c8b69ab522023e8b33,
+  author       = {BoLei},
+  title        = {{3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties}},
+  year         = 2026,
+  month        = jun,
+  publisher    = {Science Data Bank},
+  version      = {V1},
+  doi          = {10.57760/sciencedb.40644},
+  url          = https://doi.org/10.57760/sciencedb.40644
+}
 ```
 
 * **Example Data:** We provide a miniature dataset in the `example_data/copped_fiber` directory so you can immediately test preprocessing, graph construction, voxelization, and training workflows right after cloning the repository.
