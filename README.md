@@ -73,6 +73,8 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 * **Extraction (`mesh_data_extractor.py`):** Parses raw FEA element data (e.g., C3D4 tetrahedrals) via keyword parsing into clean topological texts: `node.txt`, `element.txt`, and `matrix.txt`.
 * **Graph Synthesis (`Make_graph_bin.py`):** Constructs element-level **Micro Graphs** and inclusion-level **Meso Graphs** embedding Periodic Boundary Conditions (PBC) and PCA shape descriptors, packaging them into standalone DGL binary objects.
 
+![Graphs](assets/pbc.png)
+
 ### 2. The `3DCNN_Baseline` Voxel Pipeline
 
 **Geometry Metadata → Spatial Phase Voxelization (.mat) → Volumetric Deep Learning**
