@@ -201,7 +201,7 @@ If you find this code or benchmark layout useful in your research, please consid
 ```bibtex
 @article{BoLei2027,
   title={[DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization]},
-  author={[BoLei, LongWang, YangLliu]},
+  author={[BoLei, LongWang, Yangliu]},
   journal={[Acta Mech. Sin.]},
   year={2027},
   doi={[10.1007/s10409-026-60324-x]}
