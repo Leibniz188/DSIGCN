@@ -8,9 +8,7 @@ This project presents a **Dual-Scale Interactive Graph Convolutional Neural Netw
 
 > Graphical abstract
 
-To provide a rigorous performance benchmark, this repository also includes a comprehensive **3D Convolutional Neural Network (3D-CNN)** baseline module based on voxelized phase data, complete with automated end-to-end evaluation and cross-model visualization utilities.
-
-The codebase bridges the gap between traditional Finite Element Analysis (FEA), spatial volumetric networks, and modern Graph Neural Networks (GNNs).
+To provide a rigorous performance benchmark, this repository also includes a comprehensive **3D Convolutional Neural Network** ([3D-CNN](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/tree/master)) baseline module based on voxelized phase data, complete with automated end-to-end evaluation and cross-model visualization utilities.
 ---
 
 ## Project Structure
