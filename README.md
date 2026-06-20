@@ -6,7 +6,7 @@ This project presents a **Dual-Scale Interactive Graph Convolutional Neural Netw
 
 <img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/arc.png" width="700">
 
-> Overall architecture
+> Graphical abstract
 
 To provide a rigorous performance benchmark, this repository also includes a comprehensive **3D Convolutional Neural Network (3D-CNN)** baseline module based on voxelized phase data, complete with automated end-to-end evaluation and cross-model visualization utilities.
 
