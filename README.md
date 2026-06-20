@@ -61,7 +61,11 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Due to GitHub's file size limitations, the full training dataset is hosted externally.
+Due to GitHub's file size limitations, the full training dataset is hosted externally. 
+
+<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/DATASET.png" width="700">
+
+> Intuitive visualization of the dataset
 
 * **Full Dataset:** [Insert Link to Zenodo / Hugging Face / Google Drive Here]
 * **Example Data:** We provide a miniature dataset in the `example_data/` directory so you can immediately test preprocessing, graph construction, voxelization, and training workflows right after cloning the repository.
