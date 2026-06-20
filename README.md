@@ -63,7 +63,11 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 > Intuitive visualization of the dataset
 
 * **Full Dataset:**
+  If you utilize this dataset in your manuscript, please cite our work.
+  ```
   BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties[DS/OL]. V1. Science Data Bank, 1[2026-06-20]. https://cstr.cn/31253.11.sciencedb.40644. CSTR:31253.11.sciencedb.40644.
+  ```
+
 * **Example Data:** We provide a miniature dataset in the `example_data/copped_fiber` directory so you can immediately test preprocessing, graph construction, voxelization, and training workflows right after cloning the repository.
 
 ---
@@ -149,9 +153,5 @@ If you find this code or benchmark layout useful in your research, please consid
   year={2027},
   doi={[10.1007/s10409-026-60324-x]}
 }
-
-```
-
-```
 
 ```
