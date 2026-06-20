@@ -63,6 +63,7 @@ Due to GitHub's file size limitations, the full training dataset is hosted exter
 > Intuitive visualization of the dataset
 
 * **Full Dataset:**
+[Dataset](https://www.scidb.cn/preview?dataSetId=e48eff609d7d41c8b69ab522023e8b33&version=V1) directories are shown below:
 ```text
 DATA_DSIGCN/
 │
@@ -74,28 +75,25 @@ DATA_DSIGCN/
 │      └──copped_fiber
 │         ├── csv/
 │         └── .dat
-├── Uncertainty_Quantification          # The sample dataset is adopted to verify code feasibility, yet insufficient data limits effective model training.
+├── Uncertainty_Quantification          # This dataset corresponds to the uncertainty quantification (UQ) section in the paper (DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization). It contains 100 ellipsoidal samples for each volume fraction of 7% and 25%. Refer to the paper for detailed data generation methods.
 │   ├──UQ25
 │   │  ├── csv/                         
 │   │  └── .dat                    
 │   └──UQ7
 │      ├── csv/
 │      └── .dat
-├── ellipsoid1000                       # The sample dataset is adopted to verify code feasibility, yet insufficient data limits effective model training.
+├── ellipsoid1000                       # Main dataset of this work with fixed initial material parameters. RVE differences arise from varying volume fractions for intuitive baseline comparisons.
 │   ├── csv/                         
 │   └── .dat
-├── transfer_learning_dataset           # The sample dataset is adopted to verify code feasibility, yet insufficient data limits effective model training.
-│   ├── csv/                         
-│   └── .dat
-│
-└── README.md
+└── transfer_learning_dataset           # For validating model transfer learning performance
+    ├── csv/                         
+    └── .dat
 ```
 
+All datasets adopt unified structures. Simply replace the file path in the code after downloading to run training and prediction. Manual collection may contain errors, and dataset verification is highly appreciated to enhance data scientificity. If you utilize this [Dataset](https://www.scidb.cn/preview?dataSetId=e48eff609d7d41c8b69ab522023e8b33&version=V1) in your manuscript, please cite our work:
+```bibtex
+BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties[DS/OL]. V1. Science Data Bank, 1[2026-06-20]. https://cstr.cn/31253.11.sciencedb.40644. CSTR:31253.11.sciencedb.40644.
 ```
-  If you utilize this [Dataset](https://www.scidb.cn/preview?dataSetId=e48eff609d7d41c8b69ab522023e8b33&version=V1) in your manuscript, please cite our work.
-  ```bibtex
-  BoLei. 3D RVE Dataset of Two-Phase Composites with Variable Volume Fractions and Material Properties[DS/OL]. V1. Science Data Bank, 1[2026-06-20]. https://cstr.cn/31253.11.sciencedb.40644. CSTR:31253.11.sciencedb.40644.
-  ```
 
 * **Example Data:** We provide a miniature dataset in the `example_data/copped_fiber` directory so you can immediately test preprocessing, graph construction, voxelization, and training workflows right after cloning the repository.
 
