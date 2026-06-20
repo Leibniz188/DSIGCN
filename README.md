@@ -143,11 +143,11 @@ If you find this code or benchmark layout useful in your research, please consid
 
 ```bibtex
 @article{dsigcn2026,
-  title={[Insert Paper Title Here]},
-  author={[Insert Author Names]},
-  journal={[Insert Journal Name]},
-  year={2026},
-  doi={[Insert DOI Here]}
+  title={[DSIGCN: Dual-scale interactive graph convolutional neural network for heterogeneous material homogenization]},
+  author={[BoLei, LongWang, YangLliu]},
+  journal={[Acta Mech. Sin.]},
+  year={2027},
+  doi={[10.1007/s10409-026-60324-x]}
 }
 
 ```
