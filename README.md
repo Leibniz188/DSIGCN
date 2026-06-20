@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 Due to GitHub's file size limitations, the full training dataset is hosted externally. 
 
-<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/DATASET.png" width="700">
+<img src="https://github.com/Leibniz188/DSIGCN/blob/main/assets/DATASET.png" width="500">
 
 > Intuitive visualization of the dataset
 
